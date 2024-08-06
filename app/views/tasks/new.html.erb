@@ -1,0 +1,12 @@
+<div class="container m-2">
+  <h1>New Task</h1>
+  <div class="container border-bottom">
+    <div class="bd-callout bd-callout-info">
+      <%= render 'tasks/form' %>
+    </div>
+
+  </div>
+  <div class="container mt-3">
+  <%= link_to 'Back to all tasks', tasks_path, class: "text-decoration-none" %>
+  </div>
+</div>
